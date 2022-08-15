@@ -8,13 +8,13 @@ The HTML accordion requires only two HTML tags to get set up. `<details>` and `<
    <summary></summary>
 <details>
 ```
-The details HTML tag
+### The details HTML tag
 The `<details>` tag acts as a wrapper for our accordion. All of the content for your accordion must go inside of the `<details>` tag.
 
-The summary HTML tag
+### The summary HTML tag
 The `<summary>` tag is usually used for your title. Before the accordion is clicked, this is the content that is visible and will always remain visible.
 
-Adding content to an accordion
+## Adding content to an accordion
 To add content to the accordion when the user clicks it is pretty simple. Any content underneath the `<summary>` tags will be hidden by default. This content could be anything from some paragraph tags, an ordered list, images, links, you name it. Once the user clicks the accordion, this content will be visible.
 
 Here is some basic content:
@@ -30,7 +30,7 @@ Here is some basic content:
 ```
 Pretty cool, with just a few lines of markup, we built a functioning accordion! As you can see it’s not the best looking accordion out there. No worries though, we can style it pretty easily!
 
-How to Style an HTML Accordion
+## How to Style an HTML Accordion
 Styling your accordion is very much up to you and how you’d like for it to look, but feel free to follow along as I give just a few basic stylings to the one we created above.
 ```
 details {
